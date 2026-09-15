@@ -5,7 +5,7 @@ import { FileText as CaseArticleIcon, Images as CaseImagesIcon, Play as CaseVide
 import { enterprises, scenarios, courses, certifications, officialUrl } from './content';
 const A='/assets/';
 const entries=[{id:'enterprise',title:'百业千企',sub:'真实企业AI实践'},{id:'courses',title:'AI办公课程',sub:'系统学习AI办公'},{id:'certification',title:'AI办公认证',sub:'认证AI应用能力'}];
-function Brand(){return <a className="brand" href="#top" aria-label="小浣熊AI办公专区首页"><img src={A+'new-logo-Dez5oS9T.svg'} alt="商汤小浣熊 Raccoon Work"/><span className="brand-cross">×</span><span className="partner"><b>51</b>CTO</span></a>}
+function Brand(){return <a className="brand" href="#top" aria-label="小浣熊AI办公专区首页"><img src={A+'new-logo-Dez5oS9T.svg'} alt="商汤小浣熊 Raccoon Work"/><span className="brand-cross">×</span><img className="partner-logo" src={A+'logo-51cto.webp'} alt="51CTO"/></a>}
 function ExternalLink({children,className=''}){return <a href={officialUrl} target="_blank" rel="noreferrer" className={className}>{children}</a>}
 export function App(){
  useModuleEntrance();
