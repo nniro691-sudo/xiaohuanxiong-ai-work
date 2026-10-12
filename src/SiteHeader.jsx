@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import {Menu,X,ArrowUpRight} from 'lucide-react';
 import {bottomNavigation} from './mobileNavigation';
 import './mobileNavigation.css';
-const links=[['enterprise','百业千企'],['courses','AI办公课程'],['certification','AI办公认证'],['my-certifications','我的认证']];
+const links=[['courses','AI办公课程'],['certification','AI办公认证'],['enterprise','灯塔案例'],['my-certifications','我的认证']];
 export function SiteHeader({active=''}){
  const [open,setOpen]=useState(false);
  const asset=name=>window.__embeddedAssets?.['/assets/'+name] || import.meta.env.BASE_URL+'assets/'+name;
