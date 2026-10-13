@@ -2,7 +2,7 @@ import css from './moduleEntrance.css?raw';
 import { observeModuleEntrance } from './moduleEntrance';
 const modules = {
   courses: '.player, .now-playing, .side-catalog, .teacher-card, .course-image-cards > a, .related .section-heading, .related .course-card',
-  certification: '.section-title, .cert-banner, .price-card, .cert-brief, .value-fold, .cert-flow-content, .cert-courses'
+  certification: '.section-title, .cert-banner, .price-card, .cert-detail-image, .cert-brief, .value-fold, .cert-flow-content, .cert-courses'
 };
 export function withDetailEntrance(html, page) {
   // Run after the document and mobile tab relocation scripts have initialized.
